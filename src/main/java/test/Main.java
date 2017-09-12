@@ -24,7 +24,7 @@ public class Main {
 			rs = st.executeQuery(sql);
            // int num = st.executeUpdate();
            // if(num>0){
-                System.out.println("查询成功！！");
+               // System.out.println("查询成功！！");
                 while(rs.next()){
                 	System.out.println(""+rs.getString(1)+rs.getString(2)+rs.getString(3)+rs.getString(4));
                 }
